@@ -14,7 +14,6 @@ body {
   /* background-color: #ffffff; */
   background-image: url("https://i.pinimg.com/originals/e0/bd/18/e0bd18efa4166062451f9b1105e5d8f7.jpg");
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
+  position: absolute;
 }
 

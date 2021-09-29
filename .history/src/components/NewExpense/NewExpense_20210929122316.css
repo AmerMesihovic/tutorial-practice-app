@@ -15,7 +15,7 @@
     padding: 1rem 2rem;
     border: 1px solid #4b4b4b;
     background-color: #4b4b4b;
-    color: rgb(0, 0, 0);
+    color: white;
     border-radius: 12px;
     margin-right: 1rem;
   }
@@ -27,7 +27,7 @@
   }
   
   .new-expense button.alternative {
-    color: #000000;
+    color: #220131;
     border-color: transparent;
     background-color: transparent;
   }

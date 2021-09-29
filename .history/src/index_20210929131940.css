@@ -16,5 +16,6 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  background-image:  opacity(0.5);
 }
 

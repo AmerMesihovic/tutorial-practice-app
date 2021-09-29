@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+@import url('https://media.istockphoto.com/photos/lily-flower-on-the-dark-background-condolence-card-empty-place-for-a-picture-id841098690');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+body {
+  margin: 0;
+  /* background-color: #ffffff; */
+  background-image: url("https://media.istockphoto.com/photos/https://html.sammy-codes.com/images/background.jpg-flower-on-the-dark-background-condolence-card-empty-place-for-a-picture-id841098690");
+}
+
