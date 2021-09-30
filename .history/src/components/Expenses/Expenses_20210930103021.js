@@ -2,7 +2,7 @@ import './Expenses.css';
 import Card from '../UI/Card'
 import ExpenseItem from './ExpenseItem';
 import ExpenseFilter from './ExpenseFilter';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 
 const Expenses = (props) => {
     const [filteredYear, setFilteredYear] = useState('2021');
@@ -11,9 +11,15 @@ const Expenses = (props) => {
         setFilteredYear(selectedYear);
     }; 
 
-    // const filteredExpesnses = props.items.filter(expenses => {
+    const filteredExpesnses = props.items.filter(expenses => {
         
-    // });
+    });
+
+    useEffect(() => {
+
+    },[props.items]);
+    
+    console.log('props', props);
     
     return (
         <div>

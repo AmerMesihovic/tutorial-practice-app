@@ -11,9 +11,11 @@ const Expenses = (props) => {
         setFilteredYear(selectedYear);
     }; 
 
-    // const filteredExpesnses = props.items.filter(expenses => {
+    const filteredExpesnses = props.items.filter(expenses => {
         
-    // });
+    });
+    
+    console.log('props', props);
     
     return (
         <div>

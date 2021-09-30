@@ -11,9 +11,11 @@ const Expenses = (props) => {
         setFilteredYear(selectedYear);
     }; 
 
-    // const filteredExpesnses = props.items.filter(expenses => {
+    const filteredExpesnses = props.items.filter(expenses => {
         
-    // });
+    });
+    
+    console.log('props', props);
     
     return (
         <div>
@@ -22,7 +24,7 @@ const Expenses = (props) => {
                     selected={filteredYear}
                     onChangeFilter={filterChangeHandler}
                 />
-                {props.items.map((expenses) => (
+                {props.items.reverse((expenses) => (
                     <ExpenseItem
                         key={expenses.id}
                         title={expenses.title}
